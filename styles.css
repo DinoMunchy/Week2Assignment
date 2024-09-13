@@ -1,0 +1,121 @@
+body {
+    background-color: teal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* --- ELEMENTS --- */
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin: auto;
+}
+
+h3 {
+    margin: auto;
+    font-style: bold;
+    background-color: none;
+    width: max-content;
+    padding: 5px;
+}
+
+/* --- NAV --- */
+
+.navbar {
+    background-color: black;
+    padding: 0.25em;
+
+}
+
+.navbar ol {
+    display: flex;
+    flex-wrap:nowrap;
+    list-style-type: none;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1em;
+    font-size: 24px;
+    box-shadow: 2p 1px rgb(253, 253, 253);
+}
+
+.navbar a:hover {
+    color: teal;
+}
+.navbar a:active {
+    background-color: gold;
+    border-radius: 50%;
+}
+
+/* --- IMAGE LIST INDEX --- */
+
+#favoritethings {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#favoritethings li {
+    text-align: center;
+    list-style-type: none;
+}
+
+/* --- TABLE --- */
+
+table {
+    margin: auto;
+    background-color: white;
+    border: 3px solid black;
+}
+
+table caption {
+    font-size: 30px;
+    font-weight: 900;
+    color: teal;
+    border: 3px solid black;
+    background-color: black;
+}
+
+thead {
+    background-color: teal;
+    color: white;
+    font-size: 24px;
+}
+
+th, 
+tr {
+ text-indent: 20px;
+}
+
+form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    background-color: black;
+    padding: 10px;
+}
+
+form label {
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+}
+
+form input {
+    margin-bottom: 1em;
+}
+
+form button {
+    padding: 5px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+}
